@@ -49,8 +49,8 @@
 		<h2>Price Prediction</h2>
 			<p>Introduce the number of rooms and distance:</p>
 			<form action="{{url_for('predict')}}" method="post">
-				<input type="text" name="rooms" placeholder="Rooms" required="required">
-				<input type="text" name="distance" placeholder="Distance" required="required">
+				<input type="text" name="height" placeholder="Height in Inches" required="required">
+				<input type="text" name="width" placeholder="Width in Inches" required="required">
 				<button type="submit" class="btn btn-primary btn-block btn-large"> Predict Value!</button>
 			</form>
 			<br>
