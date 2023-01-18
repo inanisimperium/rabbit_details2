@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('rabbit_model.pkl', 'rb'))
+model = pickle.load(open('rabbit_model2.pkl', 'rb'))
 
 @app.route("/")
 def hello():
