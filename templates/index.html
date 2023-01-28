@@ -50,7 +50,7 @@
 			  data1 = 'Not ready to butcher',
 			  data2 = 'Ready to butcher';
 
-		      prediction.addEventListener("", function() {
+		      button.addEventListener("click", function() {
 			  if(input.value <= '6') {
 			      output.innerHTML = data1;
 			  } else if (input.value >= '7') {
@@ -74,14 +74,11 @@
 			<br>
 			<br>
 			{{ prediction_text }}
+			<br>
 <!-- 	new insert	 -->
-				<input type="text" id="input" placeholder="Type Here..">
-
+		<input type="text" id="input" placeholder="Type Here..">
 		<h1 id="output"></h1>
-				<button id="button">Submit</button>
-		
-		</div>
-
+		<button id="button">Submit</button>
 		
 		
 	</div>
