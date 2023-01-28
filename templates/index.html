@@ -57,7 +57,7 @@
 			<br>
 		
 <!-- 	new insert	 -->
-		<div id="predictedValue">
+		<div id="input">
 	    <b>{{prediction_text}}</b>
 		<h1 id="output"></h1>
 				<button id="button">Submit</button>
@@ -70,7 +70,7 @@
 			  data2 = 'Ready to butcher';
 
 		      prediction.addEventListener("", function() {
-			  if(predictedValue.value <= '6') {
+			  if(input.value <= '6') {
 			      output.innerHTML = data1;
 			  } else if (input.value >= '7') {
 			      output.innerText = data2;
